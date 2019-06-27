@@ -1,7 +1,4 @@
 console.log('client site javascript')
-
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const mesg_1 = document.querySelector('#mesg-1')
