@@ -42,8 +42,6 @@ app.get('/weather', (req , res) => {
                   error
               })
           }
-          console.log(geocodeData.latitude)
-          console.log(geocodeData.langitude)
     forecast(geocodeData.latitude,geocodeData.langitude , (error , forecastData) => {
         if(error){
             return res.send(error)
